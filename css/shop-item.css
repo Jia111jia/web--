@@ -1,0 +1,271 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template/shop-item)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.body1 {
+  background-color: #ffbd9a;
+}
+
+.body2 {
+  background-color: #f9f2e8;
+}
+
+.list-group-item {
+	background-color: #ffffff;
+	color:#321d10;
+}
+
+.list-group-item.active{
+	z-index:2;
+	color:#fff;
+	background-color:#ffbd9a;
+	border-color:#ffbd9a;
+}
+
+.btn {
+	background-color: #ffffff;
+	border: 2px solid #ffbf9a;
+	padding: 8px 60px;
+    color: #321d10;
+}
+
+.btn:hover {
+  background-color: #ffbf9a;
+  border: 2px solid #ffbf9a;
+}
+
+.btn:focus {
+  background-color: #ffbf9a;
+  border: 2px solid #ffbf9a;
+}
+
+.card-header {
+	background-color: #bbc4b5;
+	color: #321d10;
+}
+
+
+.newpost {
+	position: relative;
+	background-color: #343a40;
+	background: url("http://placehold.it/900x400") no-repeat center center;
+	background-size: cover;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+
+/*order detail*/
+.detail {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.detail .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.detail .container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+a {
+  color: #2196F3;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.checkout {
+	background-color: #ffbf9a;
+	padding: 8px 60px;
+    color: #321d10;
+    border: 2px solid #ffffff;
+}
+
+.checkout:hover {
+	background-color: #ffffff;
+	
+}
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+.intro {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: rgb(177, 177, 177);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .getstart h1 {
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .btn-primary {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #ff7a33;
+    border-color: #ff7a33;
+   
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #e4aa8b;
+    border-color: #e4aa8b;
+  }
+  .container{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .getstart a{
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .intro h1{
+      font-family: sans-serif;
+  }
+  .intro h2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .signup{
+      width: 500px;
+      padding: 20px;
+      text-align: center;
+      background: #FFBD9A;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      overflow: hidden;
+  }
+  .signup h1{
+      margin-top: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:#fff;
+      font-size: 40px;
+  }
+  .signup input{
+      display: block;
+      width: 100%;
+      padding: 0 16px;
+      height: 44px;
+      text-align: center;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      
+  }
+  .inp{
+      margin: 20px 0;
+      background: #f9f7e8;
+      border-radius: 6px;
+  }
+  
+  .inp_btn{
+      
+      margin-top: 60px;
+      margin-bottom: 20px;
+      background: #fa7934;
+      color: #fff;
+      border-radius: 45px;
+      cursor: pointer;
+      transition: 0.5s;
+
+  }
+  .inp_btn :hover{
+       transform: scale(0.8);
+
+  }
+  .signup a{
+      text-decoration: none;
+      color: #fff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      padding: 10px;
+      transition: 0.8s;
+  }
+  
